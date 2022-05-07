@@ -1,0 +1,70 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)100%), url("images/background.jpg");  
+    animation: moveBanner 10s;
+}
+@keyframes moveBanner{
+    0%{
+        transform: translateY(10rem) rotateY(-30deg);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0rem) rotateY(0deg);
+        opacity: 1;
+    }
+}
+.logo{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+}
+.home{
+    text-align: center;
+    color: aliceblue;
+    font-size:15px;
+}
+button{
+    margin: 1px 15px 10px 15px;
+    padding: 6px 60px;
+    border-radius: 5px;
+    background-color: #ED213A;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 30px; 
+    font-family: sans-serif;
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+
+    margin-top: 100px;
+}
+button:hover{
+    cursor: pointer;
+    color: #ED213A;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+    border: solid #ED213A;
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+.footer{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    color: aliceblue;
+    font-size: 20px;
+}
