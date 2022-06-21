@@ -31,7 +31,7 @@ body{
 }
 button{
     margin: 1px 15px 10px 15px;
-    padding: 6px 60px;
+    padding: 6px 50px;
     border-radius: 5px;
     background-color: #ED213A;
     color: black;
@@ -46,7 +46,6 @@ button{
     justify-content: center;
     box-sizing: border-box;
     flex-wrap: wrap;
-
     margin-top: 100px;
 }
 button:hover{
